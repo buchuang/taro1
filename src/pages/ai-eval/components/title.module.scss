@@ -1,0 +1,11 @@
+.ai-eval-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+  padding-top: 10px;
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
