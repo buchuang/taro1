@@ -17,7 +17,6 @@ function App({ children }: PropsWithChildren<any>) {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         {children}
-        <Button type='primary' style={{display: 'none'}}>添加儿童</Button>
       </PersistGate>
     </Provider>
   );
